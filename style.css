@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background-size: 100%;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor1{
+  height: 70px;
+  text-align: center;
+}
+
+.contenedor1 a{
+  padding: 30px;padding-top: 30px;
+  margin: auto;
+  font-size: 29px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(12, 12, 49);
+  border-radius: 30px;
+}
+
+.contenedor1 a:hover{
+  padding: 30px;padding-top: 30px;
+  margin: auto;
+  font-size: 29px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(28, 28, 65);
+  border-radius: 30px;
+}
+
+.reloj{
+  font-family: 'Share Tech Mono', monospace;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 0 0 20px rgba(10,175, 230,1), 0 0 20px rgba(10,175, 230,0) ;
+}
+.tiempo{
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+}
+.fecha{
+  letter-spacing: 0.1em;
+  font-size: 24px;
+}
